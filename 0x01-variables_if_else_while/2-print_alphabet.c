@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+0;276;0c
 /**
  * main - Entry point
  *
@@ -11,6 +11,6 @@ char leta;
 
 for (leta = 'a'; leta <= 'z'; leta ++)
 putchar(leta);
-putchar("\n");
+putchar('\n');
 return (0);
 }
