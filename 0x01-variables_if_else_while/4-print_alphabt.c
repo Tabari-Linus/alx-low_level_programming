@@ -12,7 +12,7 @@ char leta;
 for (leta = 'a'; leta <= 'z'; leta++)
 {
 if (leta == 'e' || leta == 'q')
-continue
+continue;
 putchar(leta);
 }
 putchar('\n');
