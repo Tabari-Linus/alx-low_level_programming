@@ -11,6 +11,6 @@ void swap_int(int *a, int *c)
 int swapV;
 
 swapV = *a;
-*a = *b;
-*b = swapV;
+*a = *c;
+*c = swapV;
 }
