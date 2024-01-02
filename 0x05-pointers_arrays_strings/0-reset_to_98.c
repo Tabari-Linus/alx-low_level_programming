@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * reset_to_9 - a function that takes a pointer to an int as parameter
