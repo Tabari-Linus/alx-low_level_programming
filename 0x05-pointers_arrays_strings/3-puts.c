@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _put - Writre a function that prints a string, followed
+ * _puts - Writre a function that prints a string, followed
  * by a new line, to stdout.
  * @str: an input string
  * Return: Nothing
  */
-void _put(char *str)
+void _puts(char *str)
 {
 int i = 0;
 
