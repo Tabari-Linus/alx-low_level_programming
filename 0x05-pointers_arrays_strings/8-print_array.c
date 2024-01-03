@@ -8,7 +8,7 @@
  * @n: an input integer
  * Return: Nothing
  */
-voif print_array(int *a, int n)
+void print_array(int *a, int n)
 {
 int var = 0;
 

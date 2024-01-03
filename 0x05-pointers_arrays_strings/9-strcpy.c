@@ -15,8 +15,8 @@ int i = 0;
 
 while (i >= 0)
 {
-*(dest + i) = *(src +i);
-if (*(src + 1) == '\0')
+*(dest + i) = *(src + i);
+if (*(src + i) == '\0')
 break;
 i++;
 }

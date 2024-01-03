@@ -17,5 +17,5 @@ length -= 1;
 
 for (; a <= length; a += 2)
 _putchar(str[a]);
-putchar('\n');
+_putchar('\n');
 }

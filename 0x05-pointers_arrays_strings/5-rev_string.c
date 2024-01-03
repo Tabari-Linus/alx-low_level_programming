@@ -17,7 +17,7 @@ length++;
 while (a < length--)
 {
 c = s[a];
-s[i++] = s[length];
+s[a++] = s[length];
 s[length] = c;
 }
 }
