@@ -12,7 +12,7 @@ int length = 0, i, n;
 while (str[length] != '\0')
 length++;
 
-if (length % 2==0)
+if (length % 2 == 0)
 n = length / 2;
 else
 n = (length + 1) / 2;

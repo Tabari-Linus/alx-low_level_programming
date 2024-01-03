@@ -16,7 +16,7 @@ for (; var < n; var++)
 {
 printf("%d", a[var]);
 if (var < n - 1)
-printf(",");
+printf(", ");
 }
 putchar('\n');
 }
