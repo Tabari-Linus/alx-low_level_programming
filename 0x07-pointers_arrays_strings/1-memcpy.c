@@ -7,7 +7,7 @@
  * @n: number of bytes
  * Return: returns pointer to copy location
  */
-char *_memcpy(char *dest, char *src, unsugned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 char *begin = dest;
 

@@ -4,7 +4,7 @@
 /**
  * _strpbrk - a function that searches a string for any of a set of bytes.
  * @s: an input string
- * @accept: an input character with to locate into a string s
+ * @accept: an input character with to locate into string s
  * Return: a pointer to the byte in s that matches one of the bytes in the accept,
  * or NULL if no such byte is found
  */
@@ -14,7 +14,7 @@ char *begin = accept;
 
 while (*s)
 {
-while ( *accept)
+while (*accept)
 {
 if (*accept == *s)
 return (s);
