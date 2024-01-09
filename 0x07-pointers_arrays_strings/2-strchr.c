@@ -7,7 +7,7 @@
  * @c: an input character to locate into string s
  * Return: returns pointer to c position
  */
-char *_strchr(cha *s, char c)
+char *_strchr(char *s, char c)
 {
 
 while (*s)
