@@ -23,7 +23,7 @@ return (is_divisible(n, div));
  * is_divisible - check if num is divisible
  * @num: the number to be checked
  * @div: the result of the division
- * Rturn: 1 if num is divisible or 0 if num is not divisible
+ * Return: 1 if num is divisible or 0 if num is not divisible
  */
 int is_divisible(int num, int div)
 {
