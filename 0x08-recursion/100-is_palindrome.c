@@ -25,12 +25,12 @@ return (_strlen_recursion(s + 1) + 1);
  */
 int is_palindrome(char *s)
 {
-  int len;
+int len;
 
-  len = _strlen_recursion(s);
-  if (len <= 1)
-    return (1);
-  return (helper_palindrome(s, len));
+len = _strlen_recursion(s);
+if (len <= 1)
+return (1);
+return (helper_palindrome(s, len));
 }
 
 /**
