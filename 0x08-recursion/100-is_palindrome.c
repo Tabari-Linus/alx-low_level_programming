@@ -19,6 +19,21 @@ return (_strlen_recursion(s + 1) + 1);
 }
 
 /**
+ * is_palidrome - A function that checks if s is a palindrome string
+ * @s: An input string
+ * Return: 1 if is string a palindrome or 0 in otherwise
+ */
+int is_palindrome(char *s)
+{
+  int len;
+
+  len = _strlen_recursion(s);
+  if (len <= 1)
+    return (1);
+  return (helper_palindrome(s, len));
+}
+
+/**
  * helper_palindrome - A function with a reversed string
  * @s: An input string
  * @len: the length of the string s
