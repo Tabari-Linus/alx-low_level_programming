@@ -1,11 +1,11 @@
-#include  "variadic_functions.h"
+#include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
 
 /**
- * print_numbers - A function that prints numbers followed by new line.
+ * print_numbers - A function that print numbers followed by a new line.
  * @separator: An input string to be printed between numbers.
- * @n: number og parameters
+ * @n: number of parameters
  * @...: Other parameters
  * Return: The of all parameters
  */
