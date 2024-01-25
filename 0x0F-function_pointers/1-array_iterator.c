@@ -9,7 +9,7 @@
  * @action: action(function) to iterate throw array
  * Return: Nothing
  */
-void array_iteratoe(int *array, size_t size, void (*action)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 unsign int i = 0;
 
