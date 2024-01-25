@@ -4,13 +4,13 @@
 #include <stdlib.h>
 
 /**
- * main - Prints the results of the simple operations.
+ * main - Prints the result of the simple operations.
  * @argc: The number of arguments supplied tp the program
  * @argv: An array of pointers to the arguments.
  *
  * Return: Always 0.
  */
-int main(int  __attribute__((__unsed__)) argc, char *argv[])
+int main(int  __attribute__((__unused__)) argc, char *argv[])
 {
 int num1,num2;
 char *op;
@@ -32,13 +32,13 @@ exit(99);
 }
 
 if ((*op == '/' && num2 == 0) ||
-(*op == '%' && num2 == 2))
+(*op == '%' && num2 == 0))
 {
 print("Error\n");
 exit(100);
 }
 
-printf("d\n", get_op_func(op)(num1, nun2));
+printf("%d\n", get_op_func(op)(num1, nun2));
 
 return (0);
 }
