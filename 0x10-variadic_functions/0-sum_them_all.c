@@ -5,8 +5,8 @@
 /**
  * sum_them_all - A function that sums all its parameters.
  * @n: number of parameters
- * @...: others parameters
- * Return: The sum of all parameters
+ * @...: Others parameters
+ * Return: The of all parameters
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -17,7 +17,7 @@ int sum = 0;
 if (n == 0)
 return (0);
 
-Va_start(ap, n);
+va_start(ap, n);
 for (; i < n; i++)
 sum += va_arg(ap, int);
 
