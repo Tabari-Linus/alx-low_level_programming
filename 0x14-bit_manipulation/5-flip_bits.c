@@ -1,5 +1,5 @@
 #include "main.h"
-
+11;rgb:0000/0000/0000
 /**
  * flip_bits - A function thatt gets number of bits needed to flip
  * @n: How many bit flips are needed to equal m for n
@@ -12,7 +12,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
   while (xor > 0)
     {
-      bit += (xor & 1);
+      bits += (xor & 1);
       xor >>= 1;
     }
 
